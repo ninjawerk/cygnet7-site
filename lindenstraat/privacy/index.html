@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy policy — Lindenstraat · Cygnet 7</title>
+  <meta name="description" content="How Lindenstraat, the Dutch reading app by Cygnet 7, handles your data: what stays on your phone, what reaches our server, and your rights." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://cygnet7.com/lindenstraat/privacy/" />
+  <script type="module" crossorigin src="/assets/main-B6QaQuhR.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-YdUHh7R9.css">
+</head>
+<body>
+
+<header class="nav-bar">
+  <div class="nav">
+    <a class="mark" href="/" aria-label="Cygnet 7 home">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
+        <path d="M7 8 H25 L14.5 26" fill="none" stroke="currentColor" stroke-width="2.4"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="9.5" cy="20.5" r="3.2" fill="none" stroke="currentColor" stroke-width="2.4"/>
+      </svg>
+      <span>Cygnet&nbsp;7</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/lindenstraat/">Lindenstraat</a>
+      <a href="/janma/">Janma</a>
+      <a class="hide-sm" href="/#studio">Studio</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="doc">
+  <p class="kicker">Lindenstraat · Dutch on Lindenstraat</p>
+  <h1>Privacy policy</h1>
+  <p class="doc-meta">Last updated 10 October 2026</p>
+
+  <section class="doc-summary">
+    <h2>In short</h2>
+    <ul>
+      <li>Your reading, your word bank and your notes stay on your phone, and sync only through your own iCloud.</li>
+      <li>Character chat sends your messages to our server and to Google to write the replies. We don't keep the conversations.</li>
+      <li>We use an anonymous account for chat: no name, no email, no password.</li>
+      <li>Crash reports and usage statistics are anonymous and help us fix and improve the app.</li>
+      <li>No ads, no tracking across apps or websites, and we never sell data.</li>
+    </ul>
+  </section>
+
+  <h2>Who we are</h2>
+  <p>
+    Lindenstraat (on the App Store as <em>Dutch on Lindenstraat</em>) is made by Cygnet 7, Amsterdam, the Netherlands.
+    Cygnet 7 is the controller of the personal data described here. You can reach us at
+    <a href="mailto:hello@cygnet7.com">hello@cygnet7.com</a>.
+  </p>
+
+  <h2>What stays on your device</h2>
+  <p>
+    The story, the lessons and the explanations are built into the app. What you do with them stays on your phone:
+    your progress, the words and grammar you save, your notes, reviews and settings. If iCloud is turned on for the
+    app, Apple syncs this to your other devices in your own private iCloud database. We can't see it.
+  </p>
+
+  <h2>Character chat</h2>
+  <p>When you chat with the people of the Lindenstraat (part of Pro):</p>
+  <ul>
+    <li>
+      The app signs in with an <strong>anonymous account</strong> (Google Firebase Authentication). It's a random id,
+      not linked to your name or email. Firebase App Check confirms that requests come from the genuine app.
+    </li>
+    <li>
+      Your messages, the last few turns of the conversation, your level and how far you've read are sent to our
+      server and to <strong>Google Vertex AI (Gemini)</strong>, processed in the EU, to write the reply and its
+      translation. Google doesn't use them to train its models.
+    </li>
+    <li>
+      We <strong>don't store the conversations</strong> on our server. They stay on your phone. We keep only how
+      many messages you sent each day (and the size of the model's work), to apply the fair-use limit and to see
+      what chat costs.
+    </li>
+    <li>
+      If you <strong>report a reply</strong>, we receive that reply, the message it answered, the reason you chose
+      and any note you add, with your anonymous account id, so we can review it and improve the characters.
+    </li>
+    <li>Please don't share sensitive personal information in chat. The characters are fictional and so are their answers.</li>
+  </ul>
+
+  <h2>Subscriptions</h2>
+  <p>
+    Lindenstraat Pro is sold through the App Store. Apple handles the payment; we never see your card or Apple ID. When you
+    subscribe or restore, the app sends Apple's signed confirmation to our server, which checks Apple's signature
+    and stores the subscription's id, product, and expiry date against your anonymous chat account. Apple also
+    tells our server when a subscription renews, ends or is refunded.
+  </p>
+
+  <h2>Inviting friends</h2>
+  <p>
+    Invites use <strong>Sign in with Apple</strong>, so each person can use one code. We receive only a stable,
+    anonymous identifier from Apple; we don't ask for your name and your email can stay hidden. We store a one-way
+    hash of that identifier, your invite code, who used it (as hashes, never names), whether they finished their first
+    chapter, how many rewards you've earned this month, and how long your Pro days from invites last.
+  </p>
+  <p>
+    Deleting your chat data unlinks your Apple ID, revokes the sign-in with Apple, and erases your code and days. To
+    stop the same Apple ID redeeming again or resetting the monthly limit, we keep only the hash with the fact that it
+    used a code and this month's count.
+  </p>
+
+  <h2>Crash reports and usage statistics</h2>
+  <ul>
+    <li>
+      <strong>Crash reports</strong> (Google Firebase Crashlytics): when the app crashes, it sends the technical
+      details — what went wrong, device model, iOS and app version — with a random installation id. No content you
+      read or write.
+    </li>
+    <li>
+      <strong>Usage statistics</strong> (TelemetryDeck, an EU-based, privacy-focused service): anonymous signals
+      such as "a chapter was finished" or "a lesson was opened", with an id that is hashed on your device so it
+      can't be traced back to you. No IP addresses are stored, no personal data, no advertising ids.
+    </li>
+  </ul>
+
+  <h2>Voice</h2>
+  <p>
+    Story sentences come with a recorded natural voice. Clips that aren't built into the app are downloaded from our
+    storage on Google Cloud when you play them, and kept on your phone. Like any download, the request includes your
+    IP address, which the host sees briefly to deliver the file.
+  </p>
+
+  <h2>Feedback</h2>
+  <p>
+    If you email us from the app, the message includes the app version, iOS version, device model, your level and
+    whether you have Pro, so we can help. Nothing else is added. We keep emails only as long as we need them to
+    answer and improve the app.
+  </p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No advertising and no advertising ids.</li>
+    <li>No tracking across other companies' apps or websites.</li>
+    <li>No selling or renting of data, ever.</li>
+    <li>No camera, microphone, contacts or location access.</li>
+  </ul>
+
+  <h2>Who processes data for us</h2>
+  <ul>
+    <li><strong>Apple</strong>: App Store purchases and iCloud sync.</li>
+    <li><strong>Google Cloud and Firebase</strong> (EU regions): our chat server (Cloud Run, the Netherlands), Gemini on Vertex AI, anonymous sign-in, App Check, Firestore (subscription status and daily message counts), voice storage and Crashlytics.</li>
+    <li><strong>TelemetryDeck</strong> (Germany): anonymous usage statistics.</li>
+  </ul>
+  <p>
+    Some of these companies are based in the United States. Where data leaves the EU, it's covered by the EU–US Data
+    Privacy Framework or the European Commission's standard contractual clauses.
+  </p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li>Chat conversations: not kept on our server.</li>
+    <li>Daily message counts: while your chat account is in use, and deleted when you delete your chat data.</li>
+    <li>Reported replies: until we've reviewed them, at most a year, or until you delete your chat data.</li>
+    <li>Subscription status: as long as the subscription exists, plus what tax and accounting law requires.</li>
+    <li>Crash reports: 90 days. Usage statistics: kept only in anonymous, aggregate form.</li>
+  </ul>
+
+  <h2>Legal basis</h2>
+  <p>
+    We process chat, subscription and voice data to provide the app you asked for (performance of a contract), and
+    crash reports and anonymous statistics because we have a legitimate interest in keeping the app working and
+    improving it.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    Under the GDPR you can ask to see, correct, export or delete your data, and object to or restrict its use.
+    <strong>Settings › Delete chat data</strong> in the app erases your chat account and everything our server keeps
+    for it straight away. For anything else, email <a href="mailto:hello@cygnet7.com">hello@cygnet7.com</a> from the
+    app (Settings › Send feedback) so we can find your anonymous account. <strong>Settings › Share crash reports and
+    anonymous statistics</strong> turns those off. Deleting the app removes everything stored on your phone; turning off iCloud for the app
+    stops syncing. You can also complain to the Dutch data protection authority,
+    <a href="https://autoriteitpersoonsgegevens.nl" target="_blank" rel="noopener">Autoriteit Persoonsgegevens</a>.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Lindenstraat is meant for adults and teenagers learning Dutch. Character chat is only for people aged 16 and over:
+    the app asks before the first chat and keeps chat closed for anyone who says they're younger. We don't knowingly
+    collect personal data from children; if you think a child has used chat, contact us and we'll delete the related
+    data.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes in a way that matters, we'll say so in the app's "What's new" and update the date above.
+  </p>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">Cygnet&nbsp;7</div>
+  <div class="footer-legal">
+    <span>Registered in Amsterdam, The Netherlands</span>
+    <span>KvK <em>00000000</em></span>
+    <span>VAT <em>NL000000000B00</em></span>
+  </div>
+  <div class="footer-meta">
+    <span>&copy; <span id="year">2026</span> Cygnet 7</span>
+  </div>
+</footer>
+
+</body>
+</html>

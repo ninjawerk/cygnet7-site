@@ -1,0 +1,1 @@
+import"./main-B6QaQuhR.js";const e=(new URLSearchParams(location.search).get("c")||"").toUpperCase().replace(/[^A-Z0-9]/g,"").slice(0,12);e&&(document.getElementById("code").textContent=e,document.querySelector(".invite-code").hidden=!1,document.getElementById("open").href=`lindenstraat://invite?c=${encodeURIComponent(e)}`);
